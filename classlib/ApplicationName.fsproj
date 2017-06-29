@@ -1,0 +1,11 @@
+﻿<Project Sdk="FSharp.NET.Sdk;Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>net46</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="<%= namespace %>.fs" />
+    <None Include="Script.fsx" />
+  </ItemGroup>
+  <Import Project="<%= paketPath %>\Paket.Restore.targets" />
+</Project>
