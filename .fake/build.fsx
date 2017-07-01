@@ -16,6 +16,10 @@ let appReferences = !! "/**/*.fsproj"
 let dotnetcliVersion = "1.0.4"
 let mutable dotnetExePath = "dotnet"
 
+// --------------------------------------------------------------------------------------
+// Helpers
+// --------------------------------------------------------------------------------------
+
 let run' timeout cmd args dir =
     if execProcess (fun info ->
         info.FileName <- cmd
