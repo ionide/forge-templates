@@ -6,7 +6,8 @@
         { "name": "Suave Application", "value": "suave" },
         { "name": "FsLab Basic", "value": "fslabbasic" },
         { "name": "FsLab Journal", "value": "fslabjournal" },
-	    { "name": "Nancy Selfhosted", "value": "nancyselfhosted" }
+        { "name": "Nancy Selfhosted", "value": "nancyselfhosted" },
+	    { "name": "Fable", "value": "fable" }
     ],
     "Files": [
         {"name": "F# Module", "value": "fs", "extension": "fs"},
