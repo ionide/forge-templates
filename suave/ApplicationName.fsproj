@@ -1,4 +1,4 @@
-﻿<Project Sdk="FSharp.NET.Sdk;Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net46</TargetFramework>
@@ -7,17 +7,6 @@
     <Compile Include="Test.fs" />
     <Compile Include="Main.fs" />
     <None Include="App.config" />
-  </ItemGroup>
-  <Import Project="<%= paketPath %>\Paket.Restore.targets" />
-</Project>
-<Project Sdk="FSharp.NET.Sdk;Microsoft.NET.Sdk">
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net461</TargetFramework>
-    <DebugType>portable</DebugType>
-  </PropertyGroup>
-  <ItemGroup>
-    <Compile Include="<%= namespace %>.fs" />
   </ItemGroup>
   <Import Project="<%= paketPath %>\Paket.Restore.targets" />
 </Project>
