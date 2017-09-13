@@ -22,7 +22,7 @@ The project can be used by editors compatible with the new .fsproj format, like 
 > In the commands below, yarn is the tool of choice. If you want to use npm, just replace `yarn` by `npm` in the commands.
 
 * Install JS dependencies: `yarn install`
-* **Move to `src` folder**: `cd src`
+* **Move to project folder**: `cd NAME_OF_THE_DIR/NAME_OF_THE_PROJECT`
 * Install F# dependencies: `dotnet restore`
 * Start Fable daemon and [Webpack](https://webpack.js.org/) dev server: `dotnet fable yarn-start`
 * In your browser, open: http://localhost:8080/
@@ -62,4 +62,4 @@ Any modification you do to the F# code will be reflected in the web page after s
 
 ### F# source files
 
-The template only contains two F# source files: the project (.fsproj) and a source file (.fs) in `src` folder.
+The template only contains two F# source files: the project (.fsproj) and a source file (.fs) in project folder.
