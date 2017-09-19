@@ -4,9 +4,7 @@
     <TargetFramework>net46</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Test.fs" />
-    <Compile Include="Main.fs" />
-    <None Include="App.config" />
+    <Compile Include="<%= namespace %>.fs" />
   </ItemGroup>
   <Import Project="<%= paketPath %>\Paket.Restore.targets" />
 </Project>
