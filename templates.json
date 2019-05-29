@@ -3,11 +3,7 @@
         { "name": "Console Application", "value": "console" },
         { "name": "Class Library", "value": "classlib" },
         { "name": "Expecto", "value": "expecto" },
-        { "name": "Suave Application", "value": "suave" },
-        { "name": "FsLab Basic", "value": "fslabbasic" },
-        { "name": "FsLab Journal", "value": "fslabjournal" },
-        { "name": "Nancy Selfhosted", "value": "nancyselfhosted" },
-	    { "name": "Fable", "value": "fable" }
+        { "name": "Saturn", "value": "saturn" }
     ],
     "Files": [
         {"name": "F# Module", "value": "fs", "extension": "fs"},
