@@ -28,8 +28,8 @@ let app = application {
     use_gzip
 }
 
-run app
+
 [<EntryPoint>]
 let main argv =
-    printfn "%A" argv
+    run app
     0 // return an integer exit code
